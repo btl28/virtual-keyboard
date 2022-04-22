@@ -1,0 +1,74 @@
+/* Display */
+
+.display {
+    display: flex;
+    justify-content: center;  
+}
+
+.display textarea {
+    resize: none;
+    padding: 15px;
+    width: 70%;
+    outline: none;
+    border-color: rgb(221, 221, 221);
+    border-radius: 5px;
+    margin: 10px auto 50px auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* Keyboard */
+
+.container {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(20, [col] 35px);
+    grid-template-rows: repeat(5, [row] 70px);
+    justify-content: center;
+}
+
+.row3 {
+    display: grid;
+    grid-column-start: col 2;
+    grid-template-columns: repeat(18, [col] 35px);
+}
+
+.row4 {
+    display: grid;
+    grid-column-start: col 4;
+    grid-row-start: row 4;
+    grid-template-columns: repeat(14, [col] 35px);
+}
+
+/* Keys */
+
+.key {
+    height: 60px;
+    width: 60px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 0px 2px 0px,
+    rgba(106, 110, 114, 0.15) 0px 1px 4px 2px;
+    justify-self: center;
+    grid-column: span 2;
+    font-size: 1.4rem;
+}
+
+.key:hover {
+    background-color: rgb(214, 214, 214);
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.key:active {
+    box-shadow: none;
+    transform: scale(0.99);
+}
+
+.shift {
+    grid-column: span 3;
+    grid-column-start: col 2;
+    grid-row-start: row 4;
+    width: 90px;
+}

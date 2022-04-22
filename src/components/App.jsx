@@ -1,9 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
+import Display from "./Display";
+import Keyboard from "./Keyboard";
 
 function App() {
+  const [displayValue, setDisplayValue] = useState("");
+
+  function display(keyName) {
+    setDisplayValue(prevValue => {
+      return prevValue + keyName;
+    });
+  }
+
   return (
     <div>
-      <h1>Hello</h1>
+      <Display text={displayValue} />
+      <Keyboard displayText={display} />
     </div>
   );
 }
