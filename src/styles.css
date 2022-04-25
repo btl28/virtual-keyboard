@@ -51,7 +51,7 @@
     rgba(106, 110, 114, 0.15) 0px 1px 4px 2px;
     justify-self: center;
     grid-column: span 2;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .key:hover {
@@ -70,5 +70,37 @@
     grid-column: span 3;
     grid-column-start: col 2;
     grid-row-start: row 4;
+}
+
+.backspace {
+    grid-column: span 3;
+    grid-column-start: col 19;
+    grid-row-start: row 4;
+    font-size: 1.5rem;
+}
+
+.symbol {
+    grid-column: span 3;
+    grid-column-start: col 4;
+    grid-row-start: row 5;
+}
+
+.space {
+    grid-column: span 8;
+    grid-column-start: col 5;
+    grid-row-start: row 5;
+    grid-column-end: col 17;
+    width: 340px;
+    font-weight: bold;
+}
+
+.enter {
+    grid-column: span 3;
+    grid-column-start: col 17;
+    grid-row-start: row 5;
+}
+
+.fn-key {
     width: 90px;
+    font-weight: bold;
 }
