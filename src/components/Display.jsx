@@ -4,7 +4,7 @@ function Display(props) {
 
     return (
         <div className="display">
-            <textarea readOnly rows="12" value={props.displayVal} />
+            <textarea readOnly value={props.displayVal} />
         </div>
     );
 }

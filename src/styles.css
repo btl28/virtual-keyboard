@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /* Display */
 
 .display {
@@ -9,6 +13,7 @@
     resize: none;
     padding: 15px;
     width: 70%;
+    height: 30rem;
     outline: none;
     border-color: rgb(221, 221, 221);
     border-radius: 5px;
@@ -18,7 +23,7 @@
 
 /* Keyboard */
 
-.container {
+.grid-container {
     display: grid;
     padding: 10px;
     grid-template-columns: repeat(20, [col] 35px);
@@ -107,4 +112,46 @@
     font-weight: bold;
     background-color: rgb(214, 214, 214);
     color: rgb(43, 43, 43);
+}
+
+@media screen and (max-width: 700px) {
+
+    .display textarea {
+        padding: 5px;
+        width: 98%;
+        height: 20rem;
+        outline: none;
+        margin-top: 50px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(20, [col] 5%);
+        grid-template-rows: repeat(5, [row] 35%);
+        padding: 0;
+    }
+
+    .row3 {
+        grid-template-columns: repeat(18, [col] 100%);
+    }
+
+    .row4 {
+        grid-template-columns: repeat(14, [col] 100%);
+    }
+
+    .key {
+        width: 90%;
+        height: 90%;
+    }
+    
+    .space {
+        width: 80%;
+    }
+    
+    .fn-key {
+        width: 280%;
+    }
+
+    .enter {
+        font-size: 1rem;
+    }
 }
