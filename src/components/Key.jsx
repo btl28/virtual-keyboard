@@ -2,8 +2,12 @@ import React from "react";
 
 function Key(props) {
 
+    function handleClick() {
+        props.onButtonClick(props.id);
+    }
+
     return (
-        <button className={props.class}>{props.keyName}</button>
+        <button onClick={handleClick} className={props.class} name={props.id}>{props.keyName}</button>
     );
 }
 

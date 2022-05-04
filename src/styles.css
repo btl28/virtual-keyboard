@@ -55,7 +55,7 @@
 }
 
 .key:hover {
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(158, 158, 158);
     color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -63,7 +63,7 @@
 
 .key:active {
     box-shadow: none;
-    transform: scale(0.99);
+    transform: scale(0.98);
 }
 
 .shift {
@@ -92,6 +92,8 @@
     grid-column-end: col 17;
     width: 340px;
     font-weight: bold;
+    background-color: rgb(214, 214, 214);
+    color: rgb(43, 43, 43);
 }
 
 .enter {
@@ -101,6 +103,8 @@
 }
 
 .fn-key {
-    width: 90px;
+    width: 95px;
     font-weight: bold;
+    background-color: rgb(214, 214, 214);
+    color: rgb(43, 43, 43);
 }

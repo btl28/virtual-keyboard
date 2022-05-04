@@ -1,9 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 
 function Display(props) {
+
     return (
         <div className="display">
-            <textarea rows="12" />
+            <textarea readOnly rows="12" value={props.displayVal} />
         </div>
     );
 }
