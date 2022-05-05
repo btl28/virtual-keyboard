@@ -19,6 +19,7 @@
     border-radius: 5px;
     margin: 10px auto 50px auto;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: 1.2rem;
 }
 
 /* Keyboard */
@@ -59,16 +60,20 @@
     font-size: 1.2rem;
 }
 
-.key:hover {
+/* .key:hover {
     background-color: rgb(158, 158, 158);
     color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
+} */
 
 .key:active {
     box-shadow: none;
     transform: scale(0.98);
+    background-color: rgb(158, 158, 158);
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .shift {
