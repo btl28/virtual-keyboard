@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/virtual-keyboard/static/css/main.fba435cc.css",
+    "main.css": "/virtual-keyboard/static/css/main.947b375c.css",
     "main.js": "/virtual-keyboard/static/js/main.0e7c4409.js",
     "index.html": "/virtual-keyboard/index.html",
-    "main.fba435cc.css.map": "/virtual-keyboard/static/css/main.fba435cc.css.map",
+    "main.947b375c.css.map": "/virtual-keyboard/static/css/main.947b375c.css.map",
     "main.0e7c4409.js.map": "/virtual-keyboard/static/js/main.0e7c4409.js.map"
   },
   "entrypoints": [
-    "static/css/main.fba435cc.css",
+    "static/css/main.947b375c.css",
     "static/js/main.0e7c4409.js"
   ]
 }
