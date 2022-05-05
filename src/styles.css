@@ -20,6 +20,7 @@
     margin: 10px auto 50px auto;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     font-size: 1.2rem;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Keyboard */
@@ -59,13 +60,6 @@
     grid-column: span 2;
     font-size: 1.2rem;
 }
-
-/* .key:hover {
-    background-color: rgb(158, 158, 158);
-    color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-} */
 
 .key:active {
     box-shadow: none;
@@ -119,6 +113,14 @@
     color: rgb(43, 43, 43);
 }
 
+@media screen and (min-width: 1300px) {
+    
+    .key:hover {
+        background-color: rgb(158, 158, 158);
+        color: white;
+    }
+}
+
 @media screen and (max-width: 700px) {
 
     .display textarea {
@@ -147,7 +149,7 @@
         width: 90%;
         height: 90%;
     }
-    
+
     .space {
         width: 80%;
     }
